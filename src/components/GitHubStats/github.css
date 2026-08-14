@@ -1,0 +1,167 @@
+/* ===========================================
+   GITHUB SECTION
+=========================================== */
+
+.github-section{
+
+position:relative;
+
+padding:120px 8%;
+
+background:#08111f;
+
+overflow:hidden;
+
+}
+
+.github-wrapper{
+
+max-width:1400px;
+
+margin:auto;
+
+}
+
+/* Heading */
+
+.github-heading{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.github-heading span{
+
+color:#00E5FF;
+
+font-size:18px;
+
+font-weight:600;
+
+letter-spacing:2px;
+
+}
+
+.github-heading h2{
+
+font-size:60px;
+
+margin:20px 0;
+
+color:white;
+
+}
+
+.github-heading p{
+
+max-width:750px;
+
+margin:auto;
+
+color:#bdbdbd;
+
+font-size:18px;
+
+line-height:1.8;
+
+}
+
+/* Grid */
+
+.github-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:35px;
+
+}
+
+.github-card{
+
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:25px;
+
+padding:20px;
+
+backdrop-filter:blur(20px);
+
+transition:.35s;
+
+}
+
+.github-card:hover{
+
+transform:translateY(-8px);
+
+border-color:#00E5FF;
+
+box-shadow:
+
+0 0 25px rgba(0,229,255,.25);
+
+}
+
+.github-card img{
+
+width:100%;
+
+display:block;
+
+border-radius:15px;
+
+}
+
+.full-width{
+
+grid-column:1/3;
+
+}
+
+/* Tablet */
+
+@media(max-width:992px){
+
+.github-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.full-width{
+
+grid-column:auto;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.github-section{
+
+padding:100px 20px;
+
+}
+
+.github-heading h2{
+
+font-size:42px;
+
+}
+
+.github-heading p{
+
+font-size:16px;
+
+}
+
+}
