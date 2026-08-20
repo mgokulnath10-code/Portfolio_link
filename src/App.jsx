@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import ScrollProgress from "./components/ScrollProgress";
-import Cursor from "./components/Cursor";
+//import Cursor from "./components/Cursor";
 import Loader from "./components/Loader";
 import Experience from "./components/Experience";
 import Certificate from "./components/Certifications";
@@ -20,7 +20,7 @@ function App() {
     
 
       <Loader />
-      <Cursor />
+      {/* <Cursor /> */}
       <ScrollProgress />
 
       <Navbar />

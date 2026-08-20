@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+ {/*import { useEffect, useState } from "react";
 import "./cursor.css";
 
 function Cursor() {
@@ -78,3 +78,5 @@ function Cursor() {
 }
 
 export default Cursor;
+
+*/}
