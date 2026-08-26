@@ -2,8 +2,6 @@ import { motion } from "framer-motion";
 
 import HeroContent from "./HeroContent";
 import HeroImage from "./HeroImage";
-import ScrollIndicator from "./ScrollIndicator";
-
 import "./Hero.css";
 
 function Hero() {
@@ -49,7 +47,7 @@ function Hero() {
 
       </div>
 
-      <ScrollIndicator />
+      
 
     </section>
   );

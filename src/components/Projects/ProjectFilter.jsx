@@ -1,11 +1,7 @@
 import { motion } from "framer-motion";
 
 const filters = [
-  "All",
-  "Frontend",
-  "Full Stack",
-  "AI",
-  "Desktop",
+  "All"
 ];
 
 function ProjectFilter({

@@ -89,7 +89,6 @@ function Navbar() {
 
         <div className="navbar-right">
 
-          <ThemeSwitcher />
 
           <a
             href="/resume.pdf"
@@ -111,52 +110,6 @@ function Navbar() {
         </div>
 
       </div>
-
-      <AnimatePresence>
-
-        {menuOpen && (
-
-          <motion.div
-            className="mobile-menu"
-
-            initial={{
-              opacity: 0,
-              y: -20,
-            }}
-
-            animate={{
-              opacity: 1,
-              y: 0,
-            }}
-
-            exit={{
-              opacity: 0,
-              y: -20,
-            }}
-          >
-
-            {navLinks.map((item) => (
-
-              <button
-                key={item.title}
-                onClick={() =>
-                  handleClick(
-                    item.title,
-                    item.href
-                  )
-                }
-                className="mobile-link"
-              >
-                {item.title}
-              </button>
-
-            ))}
-
-          </motion.div>
-
-        )}
-
-      </AnimatePresence>
     </header>
   );
 }

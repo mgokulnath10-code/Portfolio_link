@@ -56,9 +56,9 @@ function Projects() {
             coding practices.
           </p>
 
-        </motion.div>
+      </motion.div>
 
-        <ProjectsGrid />
+       <ProjectsGrid />
 
       </div>
 

@@ -11,7 +11,7 @@ export const about = {
   title: "Passionate Full Stack Developer",
 
   description: [
-    "Hello! I'm Gokulnath, a Computer Science Engineering student with a passion for building modern web applications using React, JavaScript and Python.",
+    "Hello! I'm Gokulnath,  Computer Science Engineering student with a passion for building modern web applications using React, JavaScript and Python.",
 
     "I enjoy solving real-world problems, learning new technologies, and creating responsive user interfaces with clean code and smooth user experiences.",
   ],
@@ -39,27 +39,22 @@ export const cards = [
       "Developing portfolio projects and real-world applications while continuously improving development skills.",
   },
 
-  {
-    icon: FaLightbulb,
-    title: "Continuous Learning",
-    description:
-      "Always exploring new technologies, frameworks and best practices to become a better software developer.",
-  },
+  
 ];
 
 export const stats = [
   {
-    number: "10+",
+    number: "5+",
     label: "Projects",
   },
 
   {
-    number: "15+",
+    number: "10+",
     label: "Technologies",
   },
 
   {
-    number: "8.3",
+    number: "8.5",
     label: "CGPA",
   },
 

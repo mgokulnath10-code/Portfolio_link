@@ -25,25 +25,7 @@ function HeroContent() {
         {hero.name}
       </motion.h1>
 
-      <div className="hero-title">
-
-        <TypeAnimation
-          sequence={[
-            "Full Stack Developer",
-            2000,
-            "React Developer",
-            2000,
-            "Frontend Developer",
-            2000,
-            "Problem Solver",
-            2000,
-          ]}
-          wrapper="span"
-          speed={45}
-          repeat={Infinity}
-        />
-
-      </div>
+  
 
       <motion.p
         className="hero-description"
@@ -58,8 +40,7 @@ function HeroContent() {
 
       <HeroButtons />
 
-      <SocialLinks />
-
+      
     </div>
   );
 }

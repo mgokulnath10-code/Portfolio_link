@@ -1,38 +1,29 @@
 export const certificates = [
   {
-    title: "React JS Development",
-    issuer: "Udemy",
-    date: "June 2025",
+    title: "diploma of MS-Office",
+    issuer: "CSC",
+    date: "AUG-2025",
     description:
       "Completed a comprehensive React JS course covering components, hooks, routing, state management, and modern frontend development practices.",
-    image: "/certificates/react-certificate.jpg",
+    image: "https://www.iteducationjobs.com/logo.png",
     link: "https://example.com/react-certificate",
   },
   {
     title: "Full Stack Web Development",
-    issuer: "Coursera",
-    date: "May 2025",
+    issuer: "AEX Xenora technology",
+    date: "AUG-2026",
     description:
-      "Learned frontend and backend development including HTML, CSS, JavaScript, Node.js, Express, and database integration.",
-    image: "/certificates/fullstack-certificate.jpg",
+      "Learned frontend and backend development including HTML, CSS, JavaScript, Node.js, Express, and database integration like SQL, NO-SQL",
+    image: "https://www.xenoratechnologies.in/assets/logo-dark-DBrKphNo.png",
     link: "https://example.com/fullstack-certificate",
   },
   {
-    title: "Python Programming",
-    issuer: "Infosys Springboard",
-    date: "March 2025",
+    title: "Data Alalysis",
+    issuer: "Crescent Infotech",
+    date: "   JULY-2025",
     description:
       "Successfully completed Python programming fundamentals including data structures, functions, object-oriented programming, and problem-solving.",
-    image: "/certificates/python-certificate.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8OxUHG83eXuWlnHqd7Pll-s2qMPZJH_0pCJcc1IJxJGsW6RjaEIdWy6-b&s=10",
     link: "https://example.com/python-certificate",
-  },
-  {
-    title: "SQL and Database Management",
-    issuer: "Great Learning",
-    date: "February 2025",
-    description:
-      "Gained practical knowledge in SQL queries, joins, normalization, database design, and relational database management systems.",
-    image: "/certificates/sql-certificate.jpg",
-    link: "https://example.com/sql-certificate",
   },
 ];

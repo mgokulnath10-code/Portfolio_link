@@ -14,18 +14,18 @@ const projects = [
   {
     id: 1,
 
-    title: "AI Study Notes Generator",
+    title: "AgriNexus",
 
-    image: "/projects/ai-study-notes.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIus_Sj-QgfOIWVi-0irIQ8SEtyIpJlhoAHfNtdxGNfaXDYHxOBLuf4RcA&s=10 ",
 
     description:
-      "Generate smart notes from PDFs and YouTube videos using AI.",
+      "A platform for connecting farmers with buyers and providing agricultural insights.",
 
     technologies: [
       "React",
       "Python",
       "OpenAI",
-      "Streamlit",
+      
     ],
 
     icons: [
@@ -39,60 +39,65 @@ const projects = [
     live:
       "https://your-demo-link.vercel.app",
 
-    category: "AI",
+    category: "All",
   },
 
   {
     id: 2,
 
-    title: "Student Management System",
+    title: "Quiz Application",
 
-    image: "/projects/student-management.png",
+    image: "https://thumbs.dreamstime.com/b/conceptual-caption-online-quiz-word-written-game-mind-sport-published-internet-sign-displaying-online-quiz-262139019.jpg",
 
     description:
-      "Complete student management system using Python and MySQL.",
+      "A simple quiz application built with React and Node.js.",
 
     technologies: [
-      "Python",
-      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "mongoDB",
     ],
 
     icons: [
-      FaPython,
-      SiMysql,
+      SiJavascript ,
+      FaNodeJs,
+      SiMongodb,
+
     ],
 
     github:
-      "https://github.com/mgokulnath10-code",
+      "https://github.com/mgokulnath10-code/quiz_application",
 
     live:
       "#",
 
-    category: "Desktop",
+    category: "Full Stack",
   },
 
   {
     id: 3,
 
-    title: "Netflix Clone",
+    title: "rock-paper-scissors",
 
-    image: "/projects/netflix.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReQr77_HD8esKMhO-4d2fZyVaCFmcpEboMZMc4lFGyAbv0KOhfwU8r5dwo&s=10",
 
     description:
-      "Responsive Netflix landing page built using React.",
+      " A simple rock-paper-scissors game built with HTML, CSS and JavaScript.",
 
     technologies: [
-      "React",
+      "html",
+      "css",
       "JavaScript",
     ],
 
     icons: [
-      FaReact,
-      SiJavascript,
+      SiJavascript ,
     ],
 
     github:
-      "https://github.com/mgokulnath10-code",
+      "https://github.com/mgokulnath10-code/R-P-S-GAME",
 
     live:
       "#",

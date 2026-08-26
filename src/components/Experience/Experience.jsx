@@ -16,11 +16,11 @@ function Experience() {
           viewport={{ once: true }}
         >
           <span className="section-subtitle">
-            Professional Journey
+            Experience
           </span>
 
           <h2 className="section-title">
-            Experience
+            Professional Journey
           </h2>
         </motion.div>
 
