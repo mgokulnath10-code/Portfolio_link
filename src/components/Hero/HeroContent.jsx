@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
-import { TypeAnimation } from "react-type-animation";
 
 import HeroButtons from "./HeroButtons";
-import SocialLinks from "./SocialLinks";
 import { hero } from "./heroData";
 
 function HeroContent() {

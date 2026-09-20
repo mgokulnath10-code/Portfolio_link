@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import "./education.css";
 
 import EducationCard from "./EducationCard";
-//import EducationTimeline from "./EducationTimeline";
 import { coursework } from "./educationData";
 
 function Education() {
@@ -59,10 +58,6 @@ function Education() {
         </motion.div>
 
         <EducationCard />
-
-        {/* <EducationTimeline />
-
-        Coursework */}
 
         <section className="coursework-section">
 

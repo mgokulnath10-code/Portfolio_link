@@ -1,23 +1,15 @@
 import {
   FaHtml5,
-  FaCss3Alt,
   FaReact,
   FaNodeJs,
   FaJava,
   FaPython,
-  FaGitAlt,
-  FaGithub,
 } from "react-icons/fa";
 
 import {
   SiJavascript,
-  SiTypescript,
   SiExpress,
-  SiMongodb,
-  SiMysql,
-  SiTailwindcss,
   SiCplusplus,
-  SiVite,
 } from "react-icons/si";
 
 const skillsData = [

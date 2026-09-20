@@ -2,7 +2,6 @@ import {
   FaCode,
   FaLaptopCode,
   FaRocket,
-  FaLightbulb,
 } from "react-icons/fa";
 
 export const about = {

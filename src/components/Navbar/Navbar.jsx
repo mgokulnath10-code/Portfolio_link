@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
-import { motion, AnimatePresence } from "framer-motion";
-
-import ThemeSwitcher from "../ThemeSwitcher";
 
 import "./Navbar.css";
 

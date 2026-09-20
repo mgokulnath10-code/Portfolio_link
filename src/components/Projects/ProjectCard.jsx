@@ -41,11 +41,6 @@ function ProjectCard({
         />
 
         <div className="project-overlay">
-{/* 
-          <button className="view-btn">
-            View Project
-          </button> */}
-
         </div>
 
       </div>

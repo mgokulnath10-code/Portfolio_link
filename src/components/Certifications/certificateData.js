@@ -5,8 +5,8 @@ export const certificates = [
     date: "AUG-2025",
     description:
       "Completed a comprehensive React JS course covering components, hooks, routing, state management, and modern frontend development practices.",
-    image: "https://www.iteducationjobs.com/logo.png",
-    link: "https://example.com/react-certificate",
+    image: "https://i0.wp.com/csccomputereducation.in/wp-content/uploads/2022/10/CSC-Computer-Education.png?w=279&ssl=1",
+    link: "src\components\Certifications\internship report.pdf",
   },
   {
     title: "Full Stack Web Development",

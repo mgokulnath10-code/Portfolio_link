@@ -6,7 +6,6 @@ import {
 
 import {
   SiMongodb,
-  SiMysql,
   SiJavascript,
 } from "react-icons/si";
 
